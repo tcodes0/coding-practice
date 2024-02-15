@@ -34,12 +34,12 @@ function pizzaSorvete() {
   let people = ["jac", "tom", "bel", "andrea", "bruno"];
   let foods = ["pizza", "sorvete"];
 
-  let i = 0;
+  let i = 1;
   let max = people.length;
   let out = [];
 
   for (let p of people) {
-    out[i] = p + " " + "come " + foods[i % 2];
+    out[i] = p + " " + " come " + foods[i];
 
     if (i === max) {
       break;
