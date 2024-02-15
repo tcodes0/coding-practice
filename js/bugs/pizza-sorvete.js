@@ -4,11 +4,11 @@
  * Nessa funcao um array de pessoas e um array de comidas sao criados
  * A saida desejada:
  * [
- * "jac come sorvete",
- * "tom come pizza",
- * "bel come sorvete",
- * "andrea come pizza",
- * "bruno come sorvete",
+ * "jac come pizza",
+ * "tom come sorvete",
+ * "bel come pizza",
+ * "andrea come sorvete",
+ * "bruno come pizza",
  * ]
  *
  * A saida atual:
