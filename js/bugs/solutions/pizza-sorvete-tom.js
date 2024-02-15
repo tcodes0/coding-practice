@@ -4,11 +4,11 @@
  * Nessa funcao um array de pessoas e um array de comidas sao criados
  * A saida desejada:
  * [
- * "jac come sorvete",
- * "tom come pizza",
- * "bel come sorvete",
- * "andrea come pizza",
- * "bruno come sorvete",
+ * "jac come pizza",
+ * "tom come sorvete",
+ * "bel come pizza",
+ * "andrea come sorvete",
+ * "bruno come pizza",
  * ]
  *
  * A saida atual:
@@ -34,12 +34,12 @@ function pizzaSorvete() {
   let people = ["jac", "tom", "bel", "andrea", "bruno"];
   let foods = ["pizza", "sorvete"];
 
-  let i = 1;
+  let i = 0;
   let max = people.length;
   let out = [];
 
   for (let p of people) {
-    out[i] = p + " " + " come " + foods[i];
+    out[i] = p + " " + "come " + foods[i % 2];
 
     if (i === max) {
       break;
